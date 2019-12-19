@@ -32,9 +32,13 @@ JDK 1.5 and above
 
 `mvn clean compile package -Dmaven.test.skip=true`
 
+### Download the built file
+
+[https://github.com/barrer/java-cc-cedict-parser/releases](https://github.com/barrer/java-cc-cedict-parser/releases)
+
 ## MDict
 
-### Create MDict source files
+### Create MDict source files (support both traditional Chinese and simplified Chinese headword search)
 
 `java -jar cccedict.jar ~/Downloads/cedict_ts.u8`
 
