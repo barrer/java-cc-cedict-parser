@@ -1,0 +1,6 @@
+desktop.ini
+.DS_Store
+.localized
+target/
+*.iml
+.idea

@@ -1,0 +1,10 @@
+﻿body{color:#333333;font-family:"Helvetica Neue","Helvetica","Microsoft Yahei","微软雅黑","Arial","sans-serif";font-size:100%;line-height:1.2;word-wrap:break-word}
+a{color:#326891;text-decoration:none}
+a:hover{text-decoration:underline}
+.tc,.sc{font-weight:bold;color:#121212;font-size:120%;display:inline}
+.sc::before{content:"\00a0|\00a0";color:#808080;font-weight:normal}
+.py{display:inline;color:#4a6c9b;font-weight:bold}
+.py::before{content:"\00a0/";color:#333333;font-weight:normal}
+.py::after{content:"/";color:#333333;font-weight:normal}
+.df{color:#000080}
+.df::before{content:"■\00a0";margin-left:1em;color:#b5b5b5;font-size:80%;position:relative;top:-.1em}
