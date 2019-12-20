@@ -8,8 +8,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CCCEDictParser {
-    private String[] vowelAOE = {"āáǎàa", "ōóǒòo", "ēéěèe", "ĀÁǍÀA", "ŌÓǑÒO", "ĒÉĚÈE"};
-    private String[] vowelIUV = {"īíǐìi", "ūúǔùu", "ǖǘǚǜü", "ĪÍǏÌI", "ŪÚǓÙU", "ǕǗǙǛÜ"};
+    private String[] vowelAOE = {"āáǎàa", "ōóǒòo", "ēéěèe",
+            "ĀÁǍÀA",// 愛爾蘭 爱尔兰 [Ai4 er3 lan2] /Ireland/
+            "ŌÓǑÒO",// 噢運會 噢运会 [O1 yun4 hui4] /see 奧運會|奥运会[Ao4 yun4 hui4]/
+            "ĒÉĚÈE" // 鄂爾多斯|鄂尔多斯[E4 er3 duo1 si1], Inner Mongolia/
+    };
+    private String[] vowelIUV = {"īíǐìi", "ūúǔùu", "ǖǘǚǜü"};
     private char[] toneArray = {'1', '2', '3', '4', '5'};
     private String entryRegex = "^(.+) (.+) \\[(.+)\\] /(.*)/$";
     private String pinyinRegex = "\\[(.+?)\\]";
