@@ -1,9 +1,11 @@
 package com.github.barrer.cccedict;
 
 import java.io.*;
+import java.nio.charset.Charset;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Charset: " + Charset.defaultCharset());
         long start = System.currentTimeMillis();
         if (args.length != 1) {
             System.out.println("Parameter error!");

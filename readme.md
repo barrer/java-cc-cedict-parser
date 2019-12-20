@@ -40,7 +40,7 @@ JDK 1.5 and above
 
 ### Create MDict source files (support both traditional Chinese and simplified Chinese headword search)
 
-`java -jar cccedict.jar ~/Downloads/cedict_ts.u8`
+`java -Dfile.encoding=UTF-8 -jar cccedict.jar ~/Downloads/cedict_ts.u8`
 
 ### GoldenDict screenshot
 
