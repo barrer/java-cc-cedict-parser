@@ -42,6 +42,18 @@ JDK 1.5 and above
 
 `java -Dfile.encoding=UTF-8 -jar cccedict.jar ~/Downloads/cedict_ts.u8`
 
+#### Windows Users
+
+First install java: [AdoptOpenJDK](https://adoptopenjdk.net/)
+
+Then place the following three files in the same directory.
+
+* build-mdict.bat
+* cccedict.jar
+* cedict_ts.u8
+
+Finally, double-click build-mdict.bat.
+
 ### GoldenDict screenshot
 
 ![screenshot](mdict/screenshot.png)
