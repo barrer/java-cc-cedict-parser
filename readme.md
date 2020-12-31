@@ -36,6 +36,10 @@ JDK 1.5 and above
 
 [https://github.com/barrer/java-cc-cedict-parser/releases](https://github.com/barrer/java-cc-cedict-parser/releases)
 
+date|`sha256sum cccedict.jar`
+---|---
+2019-12-20|`51d1b6c2c1bde40160760c143c027663177572619ba074d1f043c3949dd2a01c`
+
 ## MDict
 
 ### Create MDict source files (support both traditional Chinese and simplified Chinese headword search)
